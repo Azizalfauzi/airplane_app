@@ -8,3 +8,5 @@ part 'destination_card.dart';
 part 'destination_tile.dart';
 part 'photo_items.dart';
 part 'interest_row.dart';
+part 'sheet_item.dart';
+part 'booking_details_items.dart';

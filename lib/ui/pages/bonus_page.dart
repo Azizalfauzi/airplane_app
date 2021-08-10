@@ -84,16 +84,9 @@ class _BonusPageState extends State<BonusPage> {
         margin: EdgeInsets.only(
           top: 80,
         ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              'Big Bonus',
-              style:
-                  blackTextStyle.copyWith(fontSize: 32, fontWeight: semiBold),
-            ),
-            Icon(Icons.adb)
-          ],
+        child: Text(
+          'Big Bonus 🎉',
+          style: blackTextStyle.copyWith(fontSize: 32, fontWeight: semiBold),
         ),
       );
     }
